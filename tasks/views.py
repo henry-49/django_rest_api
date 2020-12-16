@@ -3,8 +3,8 @@ from rest_framework import serializers, viewsets, routers
 from .models import Task
 
 # Create your views here.
-def task(request):
-    return render(request, 'tasks/task.html', {})
+# def task(request):
+#     return render(request, 'tasks/task.html', {})
 
 
 # Serializers define the API representation.
